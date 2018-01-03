@@ -5,7 +5,7 @@
 -	It is a subclass of information filtering system that seeks to predict the "rating" or "preference" that a user would give to an item. 
  
 ### Why Recommender System
-	In the todays era of internet, where huge amount of data is being produced and collected so easily everyday through websites, smart phones, sensors, it has become very crucial to filter, prioritize and organize this data to extract useful information out of it.  Recommender Systems is one such solution that filters large volume of data and provides personalized contents and services.  
+In the todays era of internet, where huge amount of data is being produced and collected so easily everyday through websites, smart phones, sensors, it has become very crucial to filter, prioritize and organize this data to extract useful information out of it.  Recommender Systems is one such solution that filters large volume of data and provides personalized contents and services.  
 
 ### Examples
 -	Movie recommendation by Netflix
@@ -69,7 +69,7 @@ bin\pyspark
 ```
 
 ### High – level Architecture of recommender System
-![]()
+![ HighLevelArchitecture]( HighLevelArchitecture.PNG)
  
 ### Code / How to run 
 ###Link for Book Crossings Dataset
