@@ -70,17 +70,13 @@ bin\pyspark
 
 ### High – level Architecture of recommender System
 ![ HighLevelArchitecture]( HighLevelArchitecture.PNG)
+ 
+### Code / How to run 
 
 ### Link for Book Crossings Dataset
 Book Crossings dataset can be downloaded from the link below 
 http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
-### How to run the code
-Code for recommendation system is provided in IPython notebook. To run the code, please download the IPython notebook and follow steps below:
-1. Open IPython window in browser
-2. On files tab, select upload button and browse to the location of downloaded notebook. 
-3. Run the notebook by pressing keys (SHIFT + Enter)
 
+BookCrossings – Dataset, Readme.md, .py, notebook
 ### Short Comings
-The code provided in this project provides a prototype to build explicit feedback recommendation system. 
-In the Book Crossings dataset, product ids were provided in the form of ISBN strings. For running ALS algorithm, I have mapped ISBN to integer value and converted the csv file into text file. To further improving the performance of recommender system, training data normalization can be done before passing the data to the recommender engine. Also, different combinations of values can be tried to get optimized parameters for ALS algorithm.
