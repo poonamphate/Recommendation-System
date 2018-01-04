@@ -76,7 +76,7 @@ Book Crossings dataset can be downloaded from the link below
 http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
 ### How to run the code
-Code for recommendation system is provided in IPython notebook. To run the code, please download the IPython notebook and follow steps below:
+Code for recommendation system is provided in IPython notebook. To run the code, please download the IPython notebook(RecommenderSystemBookCrossingsDataset.ipynb) and follow steps below:
 1. Open IPython window in browser
 2. On files tab, select upload button and browse to the location of downloaded notebook. 
 3. Run the notebook by pressing keys (SHIFT + Enter)
