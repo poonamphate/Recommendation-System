@@ -5,7 +5,7 @@
 -	It is a subclass of information filtering system that seeks to predict the "rating" or "preference" that a user would give to an item. 
  
 ### Why Recommender System?
-In the todays era of internet, where huge amount of data is being produced and collected so easily everyday through websites, smart phones, sensors, it has become very crucial to filter, prioritize and organize this data to extract useful information out of it.  Recommender Systems is one such solution that filters large volume of data and provides personalized contents and services.  
+In the today’s era of internet, where huge amount of data is being produced and collected so easily everyday through websites, smart phones, sensors, it has become very crucial to filter, prioritize and organize this data to extract useful information out of it.  Recommender System is one such solution that filters large volume of data and provides personalized contents and services.  
 
 ### Examples
 -	Movie recommendations by Netflix
@@ -56,9 +56,9 @@ java -version
 
 #### 3. Installing Apache Spark
 -	Go to the Spark download page here http://spark.apache.org/downloads.html
--	Choose a Spark release: select the latest stable release of Spark.
--	Choose a package type: select a version that is pre-built for the latest version of Hadoop such as Pre-built for Hadoop 2.6.
--	For Choose a download type, select Direct Download.
+-	‘Choose a Spark release’: select the latest stable release of Spark.
+-	‘Choose a package type’: select a version that is pre-built for the latest version of Hadoop such as Pre-built for Hadoop 2.6.
+-	For ‘Choose a download type’, select Direct Download.
 -	Click the link next to Download Spark: spark-1.6.2-bin-hadoop2.6.tgz.
 -	Unzip the .tgz file to install Spark
 -	Set up environment variables as follows
@@ -88,4 +88,4 @@ Code for recommendation system is provided in IPython notebook. To run the code,
 
 ### Further improvements 
 The code provided in this project provides a prototype to build explicit feedback recommendation system. 
-In the Book Crossings dataset, product ids were provided in the form of ISBN strings. For running ALS algorithm, I have mapped ISBN to integer value and converted the csv file into text file. To further improving the performance of recommender system, training data normalization can be done before passing the data to the recommender engine. Also, different combinations of values can be tried to get optimized parameters for ALS algorithm.
+In the Book Crossings dataset, product ids were provided in the form of ISBN strings. For running ALS algorithm, I have mapped ISBN to integer value and converted the csv file into text file. For further improving the performance of recommender system, training data normalization can be done before passing the data to the recommender engine. Also, different combinations of values can be tried to get optimized parameters for ALS algorithm.
